@@ -1,0 +1,17 @@
+{
+  "name": "eatme",
+  "version": "1.0.0",
+  "description": "A tools help you convert your image to png and upload to any S3 services.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "author": "github@jipai.moe",
+  "license": "GPLV3",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.294.0",
+    "dotenv": "^16.0.3",
+    "tinify": "^1.7.1"
+  }
+}
